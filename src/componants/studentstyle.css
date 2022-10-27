@@ -1,0 +1,114 @@
+.container{
+    
+    height: auto;
+    background-color:white;
+    display: flex;
+    
+    margin-left: 20%;
+
+}
+.styles.divLeft{
+    justify-content: right;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #ce0d0d;
+}
+#left{
+    float: left;
+    width: 40%;
+    
+
+}
+.divLeft{
+    float: left;
+    width: 40%;
+}
+.divRight{
+    
+    float: right;
+    width: 40%;
+}
+input[type="text"], input[type="email"]{
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid rgb(14, 16, 14);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type="submit"]{
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: #45a049;
+}
+input[value="Clear"]{
+    background-color: #f44336;
+}
+input[value="Clear"]:hover{
+    background-color: #da190b;
+}
+.img{
+width: 40%;
+height: 150px;
+margin: 0 auto;
+display: block;
+border-radius: 80%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.rowright{
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    width: 100%;
+    
+}
+h1 {
+    color: #bf0e0e;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    text-shadow: 0 0 3px#1be347;
+    display:flex;
+    justify-content: center;
+}
+.styles.divRight{
+    height: auto;
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.132);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 10px 0;
+    gap: 5vw;
+}
+.styles.container{
+    height: auto;
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.132);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 10px 0;
+    gap: 5vw;
+}
+#card {
+    
+    height: auto;
+    display: flex;
+    background-color:white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 10px 0;
+    gap: 5vw;
+}
